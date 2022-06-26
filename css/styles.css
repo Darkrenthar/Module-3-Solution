@@ -1,0 +1,89 @@
+body {
+  font-size: 16px;
+  color: whitesmoke;
+  background-color: blue;
+  font-family: 'Irish Grover', cursive;
+}
+
+#header-nav {
+  background-color: #8BB847;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 {
+  font-family:'Irish Grover', cursive;
+  color: yellowgreen;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 4px 4px 2px black ;
+  margin-top: 10px;
+  margin-left: 15px;
+  line-height: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list a {
+  color: ghostwhite;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: greenyellow;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid yellow;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -35px;
+
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+  .navbar-brand h1 {
+    padding-top: 5px;
+    font-size: 5vw;
+  }
+
+  #collapsable-nav a {
+    font-size: 1.3em;
+  }
+
+}
+
+
+
+h3 + p {
+  font-size: 20px;
+}
+
+#main-content {
+  border: 1px solid black;
+  background-color: steelblue;
+}
+
+h2 {
+  padding-bottom: 10px;
+}
